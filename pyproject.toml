@@ -31,7 +31,6 @@ dependencies = [
     "tensorflow",
     "tqdm",
     "typing_extensions>=4.5.0",
-    "typeguard==2.13.3",
     "xprof",
     "hypothesis",
     "jax-triton",
