@@ -23,7 +23,7 @@ import typeguard
 
 
 ScalarInt = Int[Array, ""] | Int[np.generic, ""] | Int[jnp.generic, ""]
-jaxtyped = jaxtyping.jaxtyped(typechecker=typeguard.typechecked)
+jaxtyped =  lambda _: _   #jaxtyping.jaxtyped(typechecker=typeguard.typechecked)
 
 
 @contextlib.contextmanager
